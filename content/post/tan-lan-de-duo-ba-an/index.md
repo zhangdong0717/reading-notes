@@ -113,9 +113,9 @@ draft: false
 
 如果你读完上面这篇有兴趣，下面是我为这本书做的另外三份笔记，更私人也更碎：
 
-- 📒 [书摘 · 我标记下来的几段原文 + 当时的批注](/p/tan-lan-de-duo-ba-an-quotes/)
-- 📐 [书评 · 我对这本书的客观评价](/p/tan-lan-de-duo-ba-an-review/)
-- 🪞 [读后感 · 它对我做了什么](/p/tan-lan-de-duo-ba-an-reflection/)
+- 📒 [书摘 · 我标记下来的几段原文 + 当时的批注]({{< ref "tan-lan-de-duo-ba-an-quotes" >}})
+- 📐 [书评 · 我对这本书的客观评价]({{< ref "tan-lan-de-duo-ba-an-review" >}})
+- 🪞 [读后感 · 它对我做了什么]({{< ref "tan-lan-de-duo-ba-an-reflection" >}})
 
 ---
 
