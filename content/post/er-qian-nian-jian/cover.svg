@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" preserveAspectRatio="xMidYMid slice">
+  <rect width="400" height="600" fill="#11497D"/>
+  <rect x="24" y="24" width="352" height="552" fill="none" stroke="#9FBEDA" stroke-width="0.5" opacity="0.5"/>
+  <text x="200" y="260" text-anchor="middle" font-family="Georgia, 'Songti SC', serif" font-size="56" fill="#ECF3F9" font-weight="500" letter-spacing="2">二千</text>
+  <text x="200" y="335" text-anchor="middle" font-family="Georgia, 'Songti SC', serif" font-size="56" fill="#ECF3F9" font-weight="500" letter-spacing="2">年间</text>
+  <line x1="140" y1="395" x2="260" y2="395" stroke="#9FBEDA" stroke-width="0.5"/>
+  <text x="200" y="445" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#9FBEDA" letter-spacing="3" font-style="italic">Two Thousand Years</text>
+  <text x="200" y="540" text-anchor="middle" font-family="'PingFang SC', sans-serif" font-size="12" fill="#5A8DC1" letter-spacing="6">胡 绳</text>
+</svg>
