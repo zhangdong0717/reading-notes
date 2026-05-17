@@ -1,0 +1,166 @@
+# =====================================================================
+# Hugo 配置 · Dong's Reading
+# 主题：hugo-theme-stack（https://stack.jimmycai.com/）
+# =====================================================================
+
+# baseURL 是部署后的完整 URL。
+# 部署到 GitHub Pages 后改成 "https://<你的 GitHub 用户名>.github.io/<仓库名>/"
+baseURL = "https://zhangdong0717.github.io/reading-notes/"
+
+# 语言与默认编码
+languageCode = "zh-cn"
+defaultContentLanguage = "zh-cn"
+hasCJKLanguage = true
+
+title = "Dong's Reading"
+theme = "hugo-theme-stack"
+
+# 每页 8 篇
+[pagination]
+pagerSize = 8
+
+# =====================================================================
+# 永久链接：把文章 URL 弄短一点
+# 比如 /p/tan-lan-de-duo-ba-an/  比 /post/tan-lan-de-duo-ba-an/ 友好
+# =====================================================================
+[permalinks]
+  post = "/p/:slug/"
+  page = "/:slug/"
+
+# =====================================================================
+# Stack 主题参数
+# =====================================================================
+[params]
+  mainSections = ["post"]
+  featuredImageField = "image"
+  rssFullContent = true
+  favicon = ""
+
+  [params.footer]
+    since = 2026
+    customText = "用 Hugo + Stack 搭建。源代码在 GitHub。"
+
+  [params.dateFormat]
+    published = "2006-01-02"
+    lastUpdated = "2006-01-02 15:04"
+
+  # ---- 侧栏 ----
+  [params.sidebar]
+    emoji = "📚"
+    subtitle = "把读过的好书讲给你听。一本书一篇拆书稿，附书摘、书评、读后感。"
+
+    [params.sidebar.avatar]
+      enabled = true
+      local = false   # 用远程图，初期可以是 GitHub 头像或留空
+      src = ""        # 之后把头像图放在 assets/img/avatar.png 并把 local 改成 true
+
+  # ---- 文章页 ----
+  [params.article]
+    math = false
+    toc = true              # 自动生成目录
+    readingTime = true
+    [params.article.license]
+      enabled = true
+      default = "CC BY-NC-SA 4.0"
+
+  # ---- 评论：默认关闭，后面想开 disqus / giscus 再说 ----
+  [params.comments]
+    enabled = false
+    provider = ""
+
+  # ---- 首页右侧 Widgets ----
+  [[params.widgets.homepage]]
+    type = "search"
+
+  [[params.widgets.homepage]]
+    type = "archives"
+    [params.widgets.homepage.params]
+      limit = 5
+
+  [[params.widgets.homepage]]
+    type = "categories"
+    [params.widgets.homepage.params]
+      limit = 10
+
+  [[params.widgets.homepage]]
+    type = "tag-cloud"
+    [params.widgets.homepage.params]
+      limit = 20
+
+  # 文章页右侧只显示目录
+  [[params.widgets.page]]
+    type = "toc"
+
+  # ---- 颜色模式：跟随系统，可手动切换 ----
+  [params.colorScheme]
+    toggle = true
+    default = "auto"
+
+  # ---- 默认 Open Graph 图（社交分享预览）----
+  [params.defaultImage]
+    [params.defaultImage.opengraph]
+      enabled = false
+
+  [params.imageProcessing]
+    [params.imageProcessing.cover]
+      enabled = true
+    [params.imageProcessing.content]
+      enabled = true
+
+# =====================================================================
+# 顶部导航菜单
+# =====================================================================
+[[menu.main]]
+  identifier = "home"
+  name = "首页"
+  url = "/"
+  weight = -100
+  [menu.main.params]
+    icon = "home"
+
+[[menu.main]]
+  identifier = "archives"
+  name = "归档"
+  url = "/archives/"
+  weight = -90
+  [menu.main.params]
+    icon = "archives"
+
+[[menu.main]]
+  identifier = "categories"
+  name = "分类"
+  url = "/categories/"
+  weight = -80
+  [menu.main.params]
+    icon = "categories"
+
+[[menu.main]]
+  identifier = "about"
+  name = "关于"
+  url = "/about/"
+  weight = -70
+  [menu.main.params]
+    icon = "user"
+
+# 社交链接（右上角；按需取消注释并填上自己的）
+# [[menu.social]]
+#   identifier = "github"
+#   name = "GitHub"
+#   url = "https://github.com/yourname"
+#   [menu.social.params]
+#     icon = "brand-github"
+
+# =====================================================================
+# Markdown 渲染配置
+# =====================================================================
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true          # 允许在 Markdown 中嵌 HTML/SVG（封面图用）
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 2
+  [markup.highlight]
+    noClasses = false
+    codeFences = true
+    guessSyntax = true

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" preserveAspectRatio="xMidYMid slice">
+  <rect width="400" height="600" fill="#3C3489"/>
+  <rect x="24" y="24" width="352" height="552" fill="none" stroke="#AFA9EC" stroke-width="0.5" opacity="0.5"/>
+  <text x="200" y="260" text-anchor="middle" font-family="Georgia, 'Songti SC', serif" font-size="56" fill="#EEEDFE" font-weight="500" letter-spacing="2">贪婪的</text>
+  <text x="200" y="335" text-anchor="middle" font-family="Georgia, 'Songti SC', serif" font-size="56" fill="#EEEDFE" font-weight="500" letter-spacing="2">多巴胺</text>
+  <line x1="140" y1="395" x2="260" y2="395" stroke="#AFA9EC" stroke-width="0.5"/>
+  <text x="200" y="445" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#AFA9EC" letter-spacing="3" font-style="italic">The Molecule of More</text>
+  <text x="200" y="540" text-anchor="middle" font-family="'PingFang SC', sans-serif" font-size="12" fill="#7F77DD" letter-spacing="6">利伯曼 · 朗</text>
+</svg>

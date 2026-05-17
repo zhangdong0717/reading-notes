@@ -1,0 +1,24 @@
+# Hugo build output
+public/
+resources/_gen/
+.hugo_build.lock
+
+# Hugo stats
+hugo_stats.json
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Editor noise
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Node (some Hugo themes pull node modules)
+node_modules/
+
+# Local env
+.env
+.env.local
