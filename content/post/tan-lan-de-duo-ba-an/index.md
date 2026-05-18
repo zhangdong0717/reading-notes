@@ -3,7 +3,7 @@ title: "贪婪的多巴胺"
 slug: "tan-lan-de-duo-ba-an"
 description: "一本用多巴胺解释爱情、成瘾、政治、创造力的科普书。读起来上头，结论需要打折看。"
 date: 2026-05-11
-image: cover.svg
+image: cover.jpg
 categories:
   - 心理学
 tags:

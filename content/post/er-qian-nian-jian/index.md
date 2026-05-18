@@ -3,7 +3,7 @@ title: "二千年间"
 slug: "er-qian-nian-jian"
 description: "一本 1955 年出版的中国封建社会通论。薄薄一本却把「为什么中国王朝总在打转」讲得明明白白——读它要戴两副眼镜：一副看历史，一副看 1955 年的胡绳如何看历史。"
 date: 2026-05-17
-image: cover.svg
+image: cover.jpg
 categories:
   - 历史
 tags:

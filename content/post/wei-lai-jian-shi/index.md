@@ -3,7 +3,7 @@ title: "未来简史"
 slug: "wei-lai-jian-shi"
 description: "一本「人类下一个一千年要做什么」的大胆推演。读完会重新想：当算法比你更懂你，「做你自己」还剩什么意思。"
 date: 2026-05-17
-image: cover.svg
+image: cover.jpg
 categories:
   - 历史
 tags:
